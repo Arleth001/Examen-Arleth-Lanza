@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    	<title>Imágen com Marquesina</title>
+    	<link rel="stylesheet" type="text/css" href="tabla.css">
+
+    </head>
+
+<body>
+<center>
+
+<div id="logo">
+	<img src="logo.jpg" class="imagen">
+	<h2> Instituto Hondureño de Educación por Radio</h2>
+</div>
+<h1>Juego de Imágenes</h1>
+<p>Para Ganar, debemos dar clic sobre la siguente imagén</p>
+<img src="imágen2.gif" width="100px" height="100px">
+<br>
+<br>
+<br>
+<br>
+ <embed src="audio.mp3" autostart="true" loop="true" width="0" height="0">
+ 	
+</embed>
+<marquee scrollamount="60" direction="right" width="100%">
+	<img src="imágen1.gif" width="100px" height="100px">
+
+	<a href="ganaste.html" target="blank">
+		<img src="imágen2.gif" width="100px" height="100px">
+	</a>
+
+	<img src="imágen1.gif" width="100px" height="100px">
+
+</marquee>
+</center>
+</body>
+</html>	
